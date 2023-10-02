@@ -14,7 +14,7 @@ uint b = uint.Parse(Console.ReadLine());
 
 a = NWD(a, b);
 
-Console.WriteLine("NWD = " + a)
+Console.WriteLine("NWD = " + a);
 
 /*
  **********************************************
