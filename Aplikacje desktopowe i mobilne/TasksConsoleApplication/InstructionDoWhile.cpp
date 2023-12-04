@@ -1,4 +1,6 @@
 
+//3
+
 /*
 * Napisz program, który ma pobraæ od u¿ytkownika liczbê dodatni¹. Zabezpiecz program przed pobieraniem liczb ujemnych.
 * Napisz program, który wylosuje liczbê a nastêpnie uzytkownik bêdzie musia³ j¹ zgadn¹æ.

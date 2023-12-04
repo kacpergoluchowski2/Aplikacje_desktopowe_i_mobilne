@@ -128,7 +128,9 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="InstructionDoWhile.cpp" />
+    <ClCompile Include="InstructionFor.cpp" />
     <ClCompile Include="InstructionIf.cpp" />
+    <ClCompile Include="InstructionWhile.cpp" />
     <ClCompile Include="TasksConsoleApplication.cpp" />
     <ClCompile Include="Variable.cpp" />
   </ItemGroup>

@@ -1,4 +1,6 @@
 
+//1
+
 /*
 * 
 * Stwórz program, który pobiera od u¿ytkownika d³ugoœæ w metrach i przelicza j¹ na centymetry, milimetry i  kilometry. Wyœwietl wynik.

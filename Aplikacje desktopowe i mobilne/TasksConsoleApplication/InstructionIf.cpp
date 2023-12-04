@@ -1,4 +1,6 @@
 
+//2
+
 /*
 *Napisz program, który poprosi u¿ytkownika o podanie dwóch liczb ca³kowitych i wyœwietli wiêksz¹ z nich.
 * Napisz funkcjê która wczyta trzy liczby i wyœwietli najwiêksz¹ z nich.

@@ -1,5 +1,8 @@
-﻿#include <iostream>
+﻿#define _USE_MATH_DEFINES
+
+#include <iostream>
 #include "Variable.cpp"
+
 
 
 int main()
