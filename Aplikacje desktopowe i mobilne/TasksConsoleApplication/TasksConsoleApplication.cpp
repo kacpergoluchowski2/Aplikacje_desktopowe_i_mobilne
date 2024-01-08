@@ -1,11 +1,11 @@
 ﻿#define _USE_MATH_DEFINES
 
 #include <iostream>
-#include "Variable.cpp"
+#include "Variable.h"
 
 
 
 int main()
 {
-	variableTask1();
+	//variableTask1();
 }
