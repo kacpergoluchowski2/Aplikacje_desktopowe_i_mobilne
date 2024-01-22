@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace FirstAplicationWinFormsApp
 {
     public partial class MainForm : Form
@@ -9,8 +11,12 @@ namespace FirstAplicationWinFormsApp
 
         private void buttonFirst_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("Witaj w tym programie",
+                "Hello",
+                MessageBoxButtons.OKCancel,
+                MessageBoxIcon.Information, 
+                MessageBoxDefaultButton.Button2
+                );
         }
-
     }
 }

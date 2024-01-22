@@ -33,13 +33,15 @@
             // 
             // buttonFirst
             // 
-            buttonFirst.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 238);
-            buttonFirst.Location = new Point(149, 111);
+            buttonFirst.BackColor = Color.FromArgb(0, 192, 0);
+            buttonFirst.Font = new Font("SimSun", 15.75F, FontStyle.Italic | FontStyle.Strikeout, GraphicsUnit.Point, 0);
+            buttonFirst.ForeColor = Color.Red;
+            buttonFirst.Location = new Point(182, 56);
             buttonFirst.Name = "buttonFirst";
-            buttonFirst.Size = new Size(228, 94);
+            buttonFirst.Size = new Size(295, 68);
             buttonFirst.TabIndex = 0;
-            buttonFirst.Text = "Pierwszy przycisk";
-            buttonFirst.UseVisualStyleBackColor = true;
+            buttonFirst.Text = "Pierwszy przycisk2";
+            buttonFirst.UseVisualStyleBackColor = false;
             buttonFirst.Click += buttonFirst_Click;
             // 
             // MainForm
@@ -47,7 +49,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
-            ClientSize = new Size(603, 410);
+            ClientSize = new Size(676, 348);
             Controls.Add(buttonFirst);
             Name = "MainForm";
             Text = "Pierwsza aplikacja";
