@@ -47,7 +47,7 @@
             buttonFirst.BackColor = Color.FromArgb(0, 192, 0);
             buttonFirst.Font = new Font("SimSun", 15.75F, FontStyle.Italic | FontStyle.Strikeout, GraphicsUnit.Point, 0);
             buttonFirst.ForeColor = Color.Red;
-            buttonFirst.Location = new Point(174, 12);
+            buttonFirst.Location = new Point(222, 12);
             buttonFirst.Name = "buttonFirst";
             buttonFirst.Size = new Size(295, 68);
             buttonFirst.TabIndex = 0;
