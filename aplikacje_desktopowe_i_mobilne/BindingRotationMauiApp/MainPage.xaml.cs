@@ -5,7 +5,17 @@ namespace BindingRotationMauiApp
     public partial class MainPage : ContentPage
     {
         public string Message { get; set; }
-        public string ProcessedMessage { get; set; }
+
+        public string processedMessage;
+        public string ProcessedMessage
+        {
+            get { return processedMessage; }
+            set
+            {
+                processedMessage = value;
+                OnPropertyChanged();
+            }
+        }
 
         public MainPage()
         {
@@ -19,7 +29,7 @@ namespace BindingRotationMauiApp
 
         private void level_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            messageLabel.Text = "Poziom suwaka: " + level.Value;
+            messageLabel.Text = "Poziom Suwaka: " + level.Value;
             try
             {
                 rotateLabel.Rotation = level.Value;
