@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BsimpleCalculator.MainPage"
+             x:Name="thisPage"
+             BindingContext="{x:Reference thisPage}">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="10">
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Pierwsza liczba: "
+                   VerticalOptions="Center" />
+                <Entry HorizontalOptions="FillAndExpand"
+                   Placeholder="Tutaj wpisz pierwszą liczbę"
+                   Text="{Binding firstNumber}" />
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Druga liczba: "
+                    VerticalOptions="Center"/>
+                <Entry HorizontalOptions="FillAndExpand"
+                   Placeholder="Tutaj wpisz drugą liczbę"
+                   Text="{Binding secondNumber}"
+                   />
+            </StackLayout>
+
+            <Label Text="Opcje"
+               FontSize="20"
+               FontFamily="Arial"
+               FontAttributes="Bold"/>
+
+            <RadioButton Content="+"
+                     x:Name="operationAddRadioButton"
+                     IsChecked="{Binding additionButton}"/>
+            <RadioButton Content="-"
+                     IsChecked="{Binding substractionButton}"/>
+            <RadioButton Content="*"
+                     IsChecked="{Binding multiplicationButton}"/>
+            <RadioButton Content="/"
+                     IsChecked="{Binding divisionButton}"/>
+
+            <Button Text="Oblicz" 
+                HorizontalOptions="Center"
+                Clicked="Calculate"/>
+
+            <Label x:Name="resultLabel"/>
+
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>

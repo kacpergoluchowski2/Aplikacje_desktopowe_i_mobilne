@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="SimpleCalculator.MainPage">
-    
+
     <ScrollView>
         <VerticalStackLayout
             Spacing="10">
@@ -28,7 +28,7 @@
                    FontSize="20"
                    FontFamily="Arial"
                    FontAttributes="Bold"/>
-            
+
             <RadioButton Content="+"
                          x:Name="operationAddRadioButton"/>
             <RadioButton Content="-"
@@ -45,10 +45,5 @@
             <Label x:Name="resultLabel"/>
 
         </VerticalStackLayout>
-
-        
-
-
     </ScrollView>
-
 </ContentPage>
